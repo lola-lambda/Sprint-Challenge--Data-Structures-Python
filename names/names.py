@@ -17,7 +17,7 @@ f.close()
 #         if name_1 == name_2:
 #             duplicates.append(name_1)
 
-# 2s runtime:
+# 2s runtime with constrained space complexity:
 # duplicates = [name for name in names_1 if name in names_2]
 
 # 0.01s runtime:
